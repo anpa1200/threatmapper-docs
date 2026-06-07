@@ -2,7 +2,7 @@
 const config = {
   title: 'ThreatMapper',
   tagline: 'Self-hosted AI threat intelligence — ATT&CK mapping, APT attribution, and PDF reports in one Docker stack.',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/logo.png',
 
   url: 'https://anpa1200.github.io',
   baseUrl: '/threatmapper-docs/',
