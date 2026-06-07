@@ -1,0 +1,119 @@
+:root {
+  --ifm-color-primary: #c0392b;
+  --ifm-color-primary-dark: #ab3326;
+  --ifm-color-primary-darker: #a13022;
+  --ifm-color-primary-darkest: #85271c;
+  --ifm-color-primary-light: #cc4030;
+  --ifm-color-primary-lighter: #d14535;
+  --ifm-color-primary-lightest: #da5d4d;
+  --ifm-code-font-size: 95%;
+}
+
+.hero--threatmapper {
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a0505 40%, #2d0a0a 100%);
+  border-bottom: 2px solid #e94560;
+  color: #fff;
+}
+
+.hero--threatmapper .hero__title {
+  font-size: 3rem;
+  letter-spacing: -0.02em;
+}
+
+.hero--threatmapper .hero__subtitle {
+  color: #b0b8c8;
+  max-width: 640px;
+  margin: 0 auto 1.5rem;
+}
+
+.tm-section {
+  padding: 3rem 0;
+}
+
+.tm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.tm-card {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: var(--ifm-background-surface-color);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tm-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 1px var(--ifm-color-primary);
+}
+
+.tm-card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.tm-badge {
+  display: inline-block;
+  background: rgba(233, 69, 96, 0.15);
+  border: 1px solid rgba(233, 69, 96, 0.4);
+  color: #e94560;
+  border-radius: 4px;
+  padding: 1px 7px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-right: 6px;
+}
+
+.navbar-portfolio-btn {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 6px;
+  padding: 4px 12px !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 700;
+}
+
+.navbar-portfolio-btn:hover {
+  background: var(--ifm-color-primary);
+  color: #fff !important;
+  text-decoration: none;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #e94560;
+  --ifm-color-primary-dark: #e52d4a;
+  --ifm-color-primary-darker: #e22040;
+  --ifm-color-primary-darkest: #bf1533;
+  --ifm-color-primary-light: #ed5d74;
+  --ifm-color-primary-lighter: #ef6a7f;
+  --ifm-color-primary-lightest: #f491a1;
+  --ifm-background-color: #0d0d14;
+  --ifm-background-surface-color: #12121c;
+  --ifm-navbar-background-color: rgba(5, 5, 15, 0.92);
+}
+
+[data-theme='dark'] .navbar {
+  background: rgba(5, 5, 15, 0.92) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+[data-theme='dark'] footer.footer {
+  background: rgba(5, 5, 15, 0.95) !important;
+}
+
+html[data-theme='dark'] body {
+  background-image: url('../../static/img/bg-cyber.png') !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: #0d0d14 !important;
+}
+
+html[data-theme='dark'] .main-wrapper {
+  background: transparent !important;
+}
