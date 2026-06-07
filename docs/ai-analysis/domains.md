@@ -6,6 +6,8 @@ sidebar_position: 3
 
 # Working with All Three ATT&CK Domains
 
+![Working with all three ATT&CK domains — Enterprise, Mobile, and ICS](/img/screenshots/35_three_domains.png)
+
 ThreatMapper supports Enterprise, Mobile, and ICS ATT&CK out of the box.
 
 Switch domains using the **Domain** dropdown in the Navigator toolbar or the Analyze page.

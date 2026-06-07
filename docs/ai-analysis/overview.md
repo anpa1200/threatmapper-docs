@@ -8,6 +8,8 @@ sidebar_position: 1
 
 This is the core feature. Upload a threat report — or paste raw text — and ThreatMapper extracts every ATT&CK technique the LLM identifies, with evidence snippets and confidence scores, in real time.
 
+![AI Analysis — upload form with provider and domain selection](/img/screenshots/15_upload_report.png)
+
 ## Supported Input Formats
 
 | Format | Notes |
@@ -29,6 +31,8 @@ Navigate to **Analyze** in the sidebar.
 4. Paste text or upload a file
 5. Click **Analyse with AI**
 
+![LLM streaming response — tokens appearing in real time](/img/screenshots/16_upload_report2.png)
+
 You'll immediately see the LLM's response streaming token by token — you can read the thinking as it happens.
 
 ## Reading the Results
@@ -36,6 +40,8 @@ You'll immediately see the LLM's response streaming token by token — you can r
 When the stream completes, three tabs appear.
 
 ### Techniques Tab
+
+![Techniques tab — extracted ATT&CK techniques with evidence and confidence scores](/img/screenshots/17_results_techniques.png)
 
 The core output. Each row shows:
 
@@ -55,6 +61,8 @@ The **evidence** field is a direct quote or paraphrase from your source document
 
 ### APT Matches Tab
 
+![APT Matches tab — top 10 groups ranked by Jaccard similarity](/img/screenshots/18_results_apt_matches.png)
+
 Computed locally using Jaccard similarity between your extracted techniques and every named ATT&CK group's known TTP set. The top 10 are shown with:
 
 - Similarity score (0–100%)
@@ -65,9 +73,15 @@ A match above 25–30% is worth investigating. Use it as a lead for further rese
 
 ### Raw Response Tab
 
+![Results — additional tabs with full analysis detail](/img/screenshots/19_results_tab3.png)
+
+![Results — tactic coverage breakdown](/img/screenshots/20_results_tab4.png)
+
 The LLM's full JSON output. Useful for debugging when the model outputs something unexpected.
 
 ## Inject into Navigator
+
+![Inject into Navigator button — pushes all extracted techniques to the heatmap](/img/screenshots/21_inject_navigator.png)
 
 Click **→ Inject into Navigator** to push all extracted techniques into your live Navigator layer. Then:
 

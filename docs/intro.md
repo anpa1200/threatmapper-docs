@@ -8,9 +8,13 @@ sidebar_position: 1
 
 *Map adversary behaviour to MITRE ATT&CK in seconds, compare against 174+ APT groups, and generate PDF reports — all running locally with your own LLM keys.*
 
+![ThreatMapper platform overview](/img/screenshots/01_cover.png)
+
 ---
 
 ## The Problem
+
+![The manual ATT&CK mapping problem — slow, repetitive, and fragmented](/img/screenshots/03_the_problem.png)
 
 Every threat intelligence analyst knows the workflow: you receive a malware report, an IR summary, or a threat feed entry, and you need to translate it into ATT&CK technique IDs so you can slot it into a detection backlog or a purple-team plan.
 
@@ -24,6 +28,8 @@ There are commercial platforms that do this — but they are expensive, require 
 
 ## What It Does
 
+![ThreatMapper feature overview infographic](/img/screenshots/02_intro_infographic.png)
+
 In one sentence: **you give it a threat report, it gives you ATT&CK technique IDs, APT group matches, confidence scores, and a PDF.**
 
 | Feature | Description |
@@ -35,11 +41,27 @@ In one sentence: **you give it a threat report, it gives you ATT&CK technique ID
 | **PDF Reports** | Multi-page formatted reports for analysis sessions and Navigator layers |
 | **REST API** | Full headless access for CI integration and batch workflows |
 
+![AI Analysis — streaming extraction with techniques and evidence](/img/screenshots/04_what_it_does_1.png)
+
+![APT Attribution — Jaccard similarity ranking against all groups](/img/screenshots/05_what_it_does_2.png)
+
+![Compare deep-dive — technique overlap and gap analysis](/img/screenshots/06_what_it_does_3.png)
+
+![Navigator heatmap — ATT&CK matrix with technique selection](/img/screenshots/07_what_it_does_4.png)
+
+![APT Library — group profiles with technique sets](/img/screenshots/08_what_it_does_5.png)
+
+![PDF report — multi-page formatted output](/img/screenshots/09_what_it_does_6.png)
+
+![REST API and Swagger UI — full headless access](/img/screenshots/10_what_it_does_7.png)
+
 Everything runs locally in Docker. Your threat reports never leave your machine.
 
 ---
 
 ## Architecture
+
+![ThreatMapper architecture diagram](/img/screenshots/11_architecture.png)
 
 ThreatMapper is four containers:
 

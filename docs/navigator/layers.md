@@ -6,6 +6,8 @@ sidebar_position: 2
 
 # Saving and Loading Named Layers
 
+![Named layers library — save and reload any investigation](/img/screenshots/25_navigator_layers.png)
+
 Once you have built a TTP layer — through AI analysis, manual selection, or an APT campaign overlay — you can save it to the database with a name and reload it in any future session.
 
 ## Why This Matters

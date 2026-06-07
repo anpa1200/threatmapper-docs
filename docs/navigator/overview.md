@@ -10,6 +10,8 @@ The Navigator is the central hub. It renders the full ATT&CK matrix as an intera
 
 ## Building a Layer
 
+![ATT&CK Navigator — building a layer by clicking technique cells](/img/screenshots/22_navigator_building_layer.png)
+
 Click any technique cell to add it to your layer — it turns **red**. Click again to deselect.
 
 For sub-techniques, click the small **▶** arrow to expand the parent cell and see the sub-technique rows.
@@ -25,6 +27,10 @@ The technique counter in the toolbar shows how many unique technique IDs you hav
 1. Go to **APT Library** and find your group of interest
 2. Click **Overlay on Navigator**
 3. Return to **Navigator**
+
+![Navigator with APT group overlay — red (yours), blue (group), amber (shared)](/img/screenshots/23_navigator_overlay.png)
+
+![Navigator overlay detail — gap analysis view](/img/screenshots/24_navigator_overlay2.png)
 
 The matrix uses three colours:
 

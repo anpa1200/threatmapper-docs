@@ -6,6 +6,8 @@ sidebar_position: 4
 
 # Mode 3 — Reports (DB 2)
 
+![Mode 3 Reports — the report library with stored analysis sessions](/img/screenshots/31_compare_reports.png)
+
 Switch to **Reports (DB 2)**. The left panel lists every AI analysis you have ever run. Click any report body to re-run Jaccard comparison against all ATT&CK groups — without re-calling the LLM.
 
 ## The Reports Library

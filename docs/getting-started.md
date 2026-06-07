@@ -43,6 +43,8 @@ This downloads ~35 MB instead of ~105 MB.
 
 ## Step 2: Start
 
+![docker compose up — first start with ATT&CK ingestion in progress](/img/screenshots/12_setup_start.png)
+
 ```bash
 docker compose up
 ```
@@ -65,6 +67,10 @@ INFO:     Application startup complete.
 This takes 5–15 minutes depending on your network speed. Subsequent startups are instant — data is cached in the PostgreSQL volume.
 
 ## Step 3: Open
+
+![ThreatMapper frontend — Navigator ready after ingestion](/img/screenshots/13_setup_open.png)
+
+![ThreatMapper sidebar navigation](/img/screenshots/14_setup_open2.png)
 
 | Service | URL |
 |---|---|

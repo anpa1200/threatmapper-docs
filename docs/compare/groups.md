@@ -6,6 +6,12 @@ sidebar_position: 2
 
 # Mode 1 — Groups (DB 1)
 
+![Mode 1 Groups — ranked list of all ATT&CK groups by Jaccard similarity](/img/screenshots/27_compare_groups1.png)
+
+![Mode 1 Groups — group detail view with shared techniques](/img/screenshots/28_compare_groups2.png)
+
+![Mode 1 Groups — gap analysis tab](/img/screenshots/29_compare_groups3.png)
+
 With techniques selected in Navigator (or injected from an AI analysis), navigate to **Compare**, make sure **Groups (DB 1)** is selected, and click **Compare vs APT Groups**. This ranks all 174+ threat groups by Jaccard similarity.
 
 ## The Four-Tab Detail View

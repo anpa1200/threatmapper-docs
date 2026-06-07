@@ -6,6 +6,8 @@ sidebar_position: 2
 
 # AI Chat Assistant
 
+![AI Chat Assistant — technique context chat with ATT&CK description pre-loaded](/img/screenshots/34_ai_chat_assistant.png)
+
 Every technique in the detail panel has an embedded AI chat. This is not a generic chatbot — it is a threat intelligence assistant with the full ATT&CK description of the selected technique already in context.
 
 ## Opening the Chat
