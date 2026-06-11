@@ -104,10 +104,10 @@ export default function Home() {
             <h2>Related Projects</h2>
             <div className="tm-grid">
               {[
-                ['CTI Analyst Field Manual', 'Professional CTI tradecraft from collection requirements to detection-ready outputs.', 'https://anpa1200.github.io/cti-analyst-field-manual/'],
-                ['CTI as a Code', 'Structured intelligence product lifecycle as versioned code.', 'https://anpa1200.github.io/CTI_as_a_Code/'],
-                ['Operation Desert Hydra', 'Deep-dive threat intelligence campaign analysis.', 'https://anpa1200.github.io/operation-desert-hydra/'],
-                ['Customer-Driven AI CTI', 'AI-augmented CTI delivery methodology for customer-facing teams.', 'https://anpa1200.github.io/customer-driven-ai-cti-project/'],
+                ['CTI Analyst Field Manual', 'Professional CTI tradecraft from collection requirements to detection-ready outputs.', 'https://1200km.com/cti-analyst-field-manual/'],
+                ['CTI as a Code', 'Structured intelligence product lifecycle as versioned code.', 'https://1200km.com/CTI_as_a_Code/'],
+                ['Operation Desert Hydra', 'Deep-dive threat intelligence campaign analysis.', 'https://1200km.com/operation-desert-hydra/'],
+                ['Customer-Driven AI CTI', 'AI-augmented CTI delivery methodology for customer-facing teams.', 'https://1200km.com/customer-driven-ai-cti-project/'],
               ].map(([title, body, href]) => (
                 <article className="tm-card" key={title}>
                   <h3>{title}</h3>
