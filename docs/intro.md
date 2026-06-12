@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # ThreatMapper
 
-**Current release: v0.8.3** · [Project Hub](https://1200km.com/threatmapper/) · [Public Web Workspace](https://1200km.com/threat-matrix/) · [GitHub](https://github.com/anpa1200/threatmapper)
+**Current release: v0.8.4** · [Project Hub](https://1200km.com/threatmapper/) · [Public Web Workspace](https://1200km.com/threat-matrix/) · [GitHub](https://github.com/anpa1200/threatmapper)
 
 ThreatMapper is an AI-assisted CTI-to-detection workbench for mapping threat reports to MITRE ATT&CK, comparing TTP overlap with known groups and campaigns, identifying detection gaps, and exporting analyst-ready outputs.
 

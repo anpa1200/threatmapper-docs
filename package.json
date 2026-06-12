@@ -1,6 +1,6 @@
 {
   "name": "threatmapper-docs",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "private": true,
   "description": "Documentation for ThreatMapper, an AI-assisted ATT&CK mapping and CTI-to-detection workbench with public Web and self-hosted Docker modes.",
   "scripts": {
