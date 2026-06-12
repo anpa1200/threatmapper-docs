@@ -6,12 +6,16 @@ sidebar_position: 1
 
 # ThreatMapper
 
-**Current release: v0.5.0** · [Open the live intelligence workspace](https://1200km.com/threat-matrix/) · [View source on GitHub](https://github.com/anpa1200/threatmapper)
+**Current release: v0.6.0** · [Open the live intelligence workspace](https://1200km.com/threat-matrix/) · [View source on GitHub](https://github.com/anpa1200/threatmapper)
 
 ThreatMapper is the primary 1200km CTI-to-detection platform. The live workspace provides
 immediate actor, ATT&CK technique, report, hunting, mitigation, and coverage research without
 installation. The self-hosted platform adds AI-assisted report analysis, campaign comparison,
 stored investigations, APIs, and private deployment.
+
+The Docker platform is the superset product: it includes the public web analyst workflow
+plus AI report extraction, private report sessions, campaigns, server-saved layers, APIs,
+PDF exports, and automated ATT&CK synchronization.
 
 *Map adversary behaviour to MITRE ATT&CK in seconds, compare against 174+ APT groups, and generate PDF reports — all running locally with your own LLM keys.*
 

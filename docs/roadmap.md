@@ -8,7 +8,13 @@ sidebar_position: 12
 
 ThreatMapper is functional and actively developed.
 
-## Recently Shipped (v0.4.0)
+## Recently Shipped (v0.6.0)
+
+**Web-workspace parity plus AI** — Docker now includes intelligence discovery, global actor/TTP/report search, correlated CTI/IR reports, detection and hunting guidance, evidence/maturity assessments, workspaces, coverage overlay, detection-backlog export, shareable entity links, and investigation-report export.
+
+**Docker remains the superset product** — AI-assisted report extraction, LLM technique assistant, private report sessions, campaigns, saved server layers, APIs, PDF export, and automated ATT&CK synchronization remain Docker-only capabilities.
+
+**Known architecture gap** — the public web workspace has a static MITRE ATLAS matrix. Docker embeds and cross-links the Anomaly Detection Atlas reference book, but native MITRE ATLAS PostgreSQL ingestion still requires a dedicated adapter.
 
 **Group vs Group** — compare up to 6 APT groups simultaneously: N×N Jaccard overlap matrix, combined ATT&CK view with per-group coloured dots, sortable technique table. [See docs →](/compare/group-vs-group)
 
@@ -30,9 +36,9 @@ ThreatMapper is functional and actively developed.
 
 **Team collaboration** — shared TTP layers with user namespacing; see who saved what and when.
 
-**Detection coverage overlay** — import your existing SIGMA rule library and visualise which ATT&CK techniques you have coverage for vs which are blind spots. A "detection coverage" layer that you can compare against APT profiles.
-
 **Automatic APT tracking** — when ATT&CK releases a new version that adds techniques to a group you're tracking, send a notification (webhook or email).
+
+**Native MITRE ATLAS ingestion** — add an ATLAS-specific ingestion adapter and matrix domain to the Docker platform.
 
 ---
 

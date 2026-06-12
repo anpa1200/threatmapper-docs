@@ -2,6 +2,7 @@ module.exports = {
   docsSidebar: [
     'intro',
     'getting-started',
+    'functionality-parity',
     {
       type: 'category',
       label: 'AI Analysis',
