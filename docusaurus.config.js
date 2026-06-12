@@ -1,7 +1,7 @@
 // @ts-check
 const config = {
   title: 'ThreatMapper',
-  tagline: 'Self-hosted AI threat intelligence — ATT&CK mapping, APT attribution, and PDF reports in one Docker stack.',
+  tagline: 'CTI-to-detection intelligence platform — investigate behavior, map ATT&CK evidence, compare overlap, and operationalize findings.',
   favicon: 'img/logo.png',
 
   url: 'https://1200km.com',
@@ -60,6 +60,7 @@ const config = {
       title: 'ThreatMapper',
       logo: { alt: '1200km', src: 'img/logo.png' },
       items: [
+        { href: 'https://1200km.com/threat-matrix/', label: 'Live Workspace', position: 'left' },
         { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
         { to: '/api/overview', label: 'API', position: 'left' },
         {
@@ -102,6 +103,7 @@ const config = {
         {
           title: 'Ecosystem',
           items: [
+            { label: 'ThreatMapper Live Workspace', href: 'https://1200km.com/threat-matrix/' },
             { label: 'CTI Analyst Field Manual', href: 'https://1200km.com/cti-analyst-field-manual/' },
             { label: 'CTI as a Code', href: 'https://1200km.com/CTI_as_a_Code/' },
             { label: 'Operation Desert Hydra', href: 'https://1200km.com/operation-desert-hydra/' },
