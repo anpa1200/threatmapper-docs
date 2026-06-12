@@ -5,6 +5,11 @@ module.exports = {
     'functionality-parity',
     {
       type: 'category',
+      label: 'Operations',
+      items: ['operations/operations-overview'],
+    },
+    {
+      type: 'category',
       label: 'AI Analysis',
       items: [
         'ai-analysis/overview',

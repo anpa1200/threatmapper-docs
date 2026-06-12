@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # ThreatMapper
 
-**Current release: v0.6.0** · [Open the live intelligence workspace](https://1200km.com/threat-matrix/) · [View source on GitHub](https://github.com/anpa1200/threatmapper)
+**Current release: v0.7.0** · [Open the live intelligence workspace](https://1200km.com/threat-matrix/) · [View source on GitHub](https://github.com/anpa1200/threatmapper)
 
 ThreatMapper is the primary 1200km CTI-to-detection platform. The live workspace provides
 immediate actor, ATT&CK technique, report, hunting, mitigation, and coverage research without

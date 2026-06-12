@@ -8,7 +8,14 @@ sidebar_position: 12
 
 ThreatMapper is functional and actively developed.
 
-## Recently Shipped (v0.6.0)
+## Recently Shipped (v0.7.0)
+
+**Operational intelligence workbench** — persistent campaign/investigation workspaces,
+evidence graph records, report intake and analyst review, tracked-actor change monitoring,
+and detection engineering lifecycle management.
+
+**Operations API** — integrations can manage investigations, report intake, tracked actors,
+and detection candidates through `/api/operations`.
 
 **Web-workspace parity plus AI** — Docker now includes intelligence discovery, global actor/TTP/report search, correlated CTI/IR reports, detection and hunting guidance, evidence/maturity assessments, workspaces, coverage overlay, detection-backlog export, shareable entity links, and investigation-report export.
 
