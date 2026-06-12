@@ -122,7 +122,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Andrey Pautov. ThreatMapper — self-hosted AI threat intelligence platform.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Andrey Pautov. ThreatMapper AI — CTI-to-detection workbench and self-hosted ATT&CK analysis platform.`,
     },
     prism: {
       additionalLanguages: ['bash', 'json', 'python', 'yaml'],
